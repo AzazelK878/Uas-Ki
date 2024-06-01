@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Steganography - Embed Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audio Steganography - Embed Message</h1>
+        <input type="file" id="audioInput" accept="audio/*">
+        <textarea id="messageInput" placeholder="Enter message to hide"></textarea>
+        <button id="embedButton">Embed Message</button>
+        <audio id="audioOutput" controls></audio>
+        <a href="extract.html">
+            <button id="goToExtractButton">Go to Extract Page</button>
+        </a>
+    </div>
+    <script src="embed.js"></script>
+</body>
+</html>

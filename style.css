@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #5295d3, #ec64da);
+    color: #444;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff7e5f;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px dashed #feb47b;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+    border-color: #ff7e5f;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+textarea:focus {
+    border-color: #ff7e5f;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #feb47b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#goToExtractButton, #goToEmbedButton {
+    background-color: #feb47b;
+}
+
+#goToExtractButton:hover, #goToEmbedButton:hover {
+    background-color: #ff7e5f;
+}
